@@ -1,0 +1,86 @@
+@font-face { /* Font face nos permite añadir y seleccionar un tipo de fuente para los archivos css */
+  font-family: "Helvetica font";
+  src: url(../assets/fonts/HelveticaNowText-Medium.ttf);
+}
+
+
+body{
+
+  font-family:"Helvetica font";
+  background-color: #F5F4F0;
+  position: relative;
+  min-height: 100vh;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+
+
+.titulo h1{
+
+  text-align: center;
+  color: rgb(14, 21, 20);
+
+}
+
+
+.ferreteria{
+
+ 
+  background-color: #54504d;
+  padding: 5%;
+  padding-top: 1.5%;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+
+}
+
+
+ 
+
+.espacio{
+
+  width: 100%;
+  height: 500px;
+  
+}
+
+footer{
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  background-color:#232629;
+  
+}
+
+footer p {
+
+  padding: 15px;
+  color: aliceblue;
+  font-size: 15px;
+
+}
+
+
+@media (max-width: 768px) {
+  
+
+  .ferreteria{
+
+ 
+    background-color: #54504d;
+    padding: 5%;
+    padding-top: 5%;
+
+
+    }
+
+
+
+  }
+
